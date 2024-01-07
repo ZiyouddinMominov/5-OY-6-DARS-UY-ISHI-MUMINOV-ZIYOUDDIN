@@ -1,0 +1,43 @@
+body {
+  background-color: cornflowerblue;
+}
+img {
+  border-radius: 5px;
+}
+.input-wrapper {
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1000px;
+  gap: 10px;
+}
+#card-container {
+  margin: 10px auto;
+  display: flex;
+  font-family: sans-serif;
+  color: white;
+  flex-direction: column;
+  align-items: center;
+  width: 1000px;
+  gap: 10px;
+}
+.help {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-family: sans-serif;
+}
+.name-input {
+  padding: 10px;
+}
+input:focus {
+  outline: none;
+}
+.card-generator {
+  background: green;
+  border: none;
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+}
